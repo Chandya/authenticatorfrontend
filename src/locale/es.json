@@ -1,0 +1,17 @@
+{
+    "login": "Accesso",
+    "username": "Usuario",
+    "password": "Contraseña",
+    "signin": "Iniciar Sesión",
+    "dashboard": "Dashboard",
+    "hello": "Hola",
+    "usernameLabel": "Su nombre de usuario es",
+    "role": "Tu papel es",
+    "adminlink": "Enlace a la página de administración",
+    "home": "Inicio",
+    "logout": "Cerrar Sesión",
+    "admindashboard": "Panel de Administración",
+    "noaccess": "No tienes acceso a esta pagina",
+    "managerRole": "Gerente",
+    "userRole": "Usuario"
+}

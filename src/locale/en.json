@@ -1,0 +1,17 @@
+{
+    "login": "Login",
+    "username": "Username",
+    "password": "Password",
+    "signin": "Sign In",
+    "dashboard": "Dashboard",
+    "hello": "Hello",
+    "usernameLabel": "Username",
+    "role": "Role",
+    "adminlink": "Link to Admin Page",
+    "home": "Home",
+    "logout": "Logout",
+    "admindashboard": "Admin Dashboard",
+    "noaccess": "You do not have access to this page",
+    "managerRole": "Manager",
+    "userRole": "User"
+}

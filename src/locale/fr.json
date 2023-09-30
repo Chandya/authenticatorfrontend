@@ -1,0 +1,17 @@
+{
+    "login": "Le Login",
+    "username": "Nom d'utilisateur",
+    "password": "Mote de Passe",
+    "signin": "Se Connecter",
+    "dashboard": "Tableau de bord",
+    "hello": "Bonjour",
+    "usernameLabel": "Votre nom d'utilisateur est",
+    "role": "Votre rôle est",
+    "adminlink": "Lien vers la page d'administration",
+    "home": "Maison",
+    "logout": "Se déconnecter",
+    "admindashboard": "Tableau de bord d'administration",
+    "noaccess": "Vous n'avez pas accès à cette page",
+    "managerRole": "Directrice",
+    "userRole": "Utilisatrice"
+}
