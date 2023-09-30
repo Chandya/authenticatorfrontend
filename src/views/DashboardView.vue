@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import { useAuthStore } from '@/stores/auth'
 import { onMounted, ref } from 'vue';
-import router from '@/router';
+import { BASE_URL } from '@/config';
 
 const store = useAuthStore();
 const token = store.token;
@@ -14,7 +14,7 @@ const lang = localStorage.getItem('lang') || 'en';
 onMounted(async () => {
   // Fetches data for common dashboard with Post a request
   // Authorization is set to the JWT token and Language is set to user preference
-  const response = await fetch('http://localhost:8080/user/', {
+  const response = await fetch(`${BASE_URL}/user/`, {
     method: 'GET',
     headers: {
       Authorization: `Bearer ${token}`,

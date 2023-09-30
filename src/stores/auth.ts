@@ -1,5 +1,6 @@
 import { defineStore } from 'pinia';
 import router from '@/router';
+import { BASE_URL } from '@/config';
 
 export const useAuthStore = defineStore({
   id: 'auth',
@@ -13,10 +14,9 @@ export const useAuthStore = defineStore({
     }
   },
   actions: {
-
     // Login mechanism
     async login(username: string, password: string) {
-      const response = await fetch('http://localhost:8080/auth/login', {
+      const response = await fetch(`${BASE_URL}/auth/login`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
