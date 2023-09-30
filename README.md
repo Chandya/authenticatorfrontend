@@ -16,9 +16,8 @@ npm install
 
 ### Compile and Hot-Reload for Development
 
-- Change localhost of frontend in the following files:
-    - src/stores/auth.ts
-    - 
+- Change URL in the following file to your API port:
+  - src/config.ts
 
 ```sh
 npm run dev
