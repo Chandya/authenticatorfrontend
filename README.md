@@ -28,3 +28,13 @@ npm run dev
 ```sh
 npm run build
 ```
+
+
+### Login details:
+- Manager Role:
+  - username: manager
+  - password: password123
+ 
+- User role:
+  - username: adam
+  - password: password123 
